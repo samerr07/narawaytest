@@ -1,0 +1,17 @@
+# robots.txt — Renergizr Industries
+# SEO: MOU Scope 1.1.h — SEO implementation for complete platform
+
+User-agent: *
+Allow: /
+
+# Block authenticated/private app routes from indexing
+Disallow: /client/
+Disallow: /vendor/
+Disallow: /admin/
+Disallow: /auth/
+
+# Allow the public landing page and all its assets
+Allow: /$
+Allow: /static/
+
+Sitemap: https://renergizr.in/sitemap.xml

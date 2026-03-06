@@ -1,0 +1,149 @@
+{
+  "identity": {
+    "name": "Renergizr - The Industrial Quant",
+    "persona": "E1: The Anti-AI Designer",
+    "archetype": "ARCHETYPE 4: SWISS & HIGH-CONTRAST (Industrial Variant)",
+    "mood": "Precision, High-Voltage, Institutional Trust, Deep Tech",
+    "theme_mode": "dark"
+  },
+  "typography": {
+    "font_family": {
+      "headings": "Chivo, sans-serif",
+      "body": "Inter, sans-serif",
+      "mono": "JetBrains Mono, monospace"
+    },
+    "installation": {
+      "google_fonts_url": "https://fonts.googleapis.com/css2?family=Chivo:wght@300;400;700;900&family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap"
+    },
+    "scale": {
+      "h1": "text-4xl md:text-6xl font-black tracking-tight leading-none",
+      "h2": "text-3xl md:text-4xl font-bold tracking-tight",
+      "h3": "text-xl md:text-2xl font-bold tracking-normal",
+      "body": "text-base font-normal leading-relaxed text-slate-300",
+      "caption": "text-sm font-medium tracking-wide uppercase text-slate-500"
+    }
+  },
+  "colors": {
+    "background": {
+      "default": "#020617",
+      "surface": "#0F172A",
+      "surface_highlight": "#1E293B",
+      "overlay": "rgba(2, 6, 23, 0.8)"
+    },
+    "text": {
+      "primary": "#F8FAFC",
+      "secondary": "#94A3B8",
+      "muted": "#64748B",
+      "accent": "#38BDF8"
+    },
+    "brand": {
+      "primary": "#0EA5E9",
+      "primary_hover": "#0284C7",
+      "secondary": "#64748B",
+      "accent": "#F59E0B",
+      "success": "#10B981",
+      "danger": "#EF4444",
+      "warning": "#F59E0B",
+      "info": "#3B82F6"
+    },
+    "border": {
+      "default": "#1E293B",
+      "active": "#38BDF8"
+    },
+    "charts": {
+      "chart_1": "#0EA5E9",
+      "chart_2": "#10B981",
+      "chart_3": "#F59E0B",
+      "chart_4": "#8B5CF6",
+      "chart_5": "#EC4899"
+    }
+  },
+  "visual_enhancers": {
+    "radius": "rounded-sm",
+    "shadows": {
+      "card": "0 1px 2px 0 rgba(0, 0, 0, 0.5)",
+      "glow": "0 0 20px -5px rgba(14, 165, 233, 0.3)"
+    },
+    "gradients": {
+      "hero": "radial-gradient(circle at center, #0f172a 0%, #020617 100%)",
+      "glass": "linear-gradient(180deg, rgba(30, 41, 59, 0.4) 0%, rgba(15, 23, 42, 0.4) 100%)"
+    },
+    "borders": {
+      "glass": "1px solid rgba(255, 255, 255, 0.08)"
+    }
+  },
+  "layout_strategies": {
+    "marketing": {
+      "grid": "Bento Grid (Mode A)",
+      "spacing": "Generous (p-8 to p-32)",
+      "container": "max-w-7xl mx-auto px-4 md:px-8",
+      "alignment": "Asymmetrical, left-aligned headings"
+    },
+    "dashboard": {
+      "grid": "High Density (Mode B)",
+      "spacing": "Compact (p-4 to p-6)",
+      "sidebar_width": "w-64",
+      "card_style": "Flat, bordered, no shadow"
+    }
+  },
+  "components": {
+    "button": {
+      "primary": "bg-primary text-primary-foreground hover:bg-primary/90 shadow-[0_0_15px_-3px_rgba(14,165,233,0.4)] transition-all duration-300 rounded-sm font-medium",
+      "secondary": "bg-secondary text-secondary-foreground hover:bg-secondary/80 rounded-sm font-medium",
+      "outline": "border border-input bg-background hover:bg-accent hover:text-accent-foreground rounded-sm font-medium"
+    },
+    "card": {
+      "base": "bg-card text-card-foreground border border-border rounded-sm shadow-sm",
+      "glass": "backdrop-blur-xl bg-slate-900/60 border border-white/10 shadow-lg"
+    },
+    "input": {
+      "base": "flex h-10 w-full rounded-sm border border-input bg-background px-3 py-2 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50"
+    }
+  },
+  "image_urls": {
+    "hero_backgrounds": [
+      {
+        "url": "https://images.unsplash.com/photo-1639422026989-c17351e8c71e?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA2MTJ8MHwxfHNlYXJjaHwxfHx3aW5kJTIwdHVyYmluZSUyMGRhcmslMjBjaW5lbWF0aWMlMjBoaWdoJTIwdGVjaHxlbnwwfHx8fDE3NzE5MDk0OTh8MA&ixlib=rb-4.1.0&q=85",
+        "category": "hero",
+        "description": "Dark cinematic wind turbines, perfect for main landing hero background with overlay"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1611365892117-00ac5ef43c90?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2Nzd8MHwxfHNlYXJjaHwzfHxzb2xhciUyMHBhbmVscyUyMHN1bnNldCUyMGluZHVzdHJpYWwlMjBhZXN0aGV0aWN8ZW58MHx8fHwxNzcxOTA5NTAwfDA&ixlib=rb-4.1.0&q=85",
+        "category": "section_bg",
+        "description": "Solar panels in industrial setting, good for features section background"
+      }
+    ],
+    "features": [
+      {
+        "url": "https://images.pexels.com/photos/11456463/pexels-photo-11456463.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "category": "feature_card",
+        "description": "Close up of solar tech, high detail"
+      },
+      {
+        "url": "https://images.pexels.com/photos/10430435/pexels-photo-10430435.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "category": "feature_card",
+        "description": "Clean energy concept, wind turbine on hill"
+      }
+    ]
+  },
+  "instructions_to_main_agent": [
+    "Theme Implementation: Set 'dark' class on the html element by default. Use the color palette defined above.",
+    "Font Usage: Import Chivo and Inter from Google Fonts. Use Chivo for all Headings (h1-h3) and Inter for body text.",
+    "Layout: Use Bento Grid layouts for the landing page. Use dense, bordered tables/grids for dashboards.",
+    "Components: Use Shadcn UI components. customize the border-radius to 'rounded-sm' (2px) for a sharper, industrial look.",
+    "Charts: Use Recharts with the defined chart colors. Ensure high contrast against the dark background.",
+    "Icons: Use Lucide React icons. Stroke width should be 1.5px or 2px.",
+    "Glassmorphism: Use the defined glass gradients for floating elements like the navbar and toast notifications.",
+    "Data-Testid: Add 'data-testid' to ALL interactive elements (buttons, inputs, links, tabs). Format: 'kebab-case-role'.",
+    "No Transparent Backgrounds: Ensure all dropdowns, modals, and headers have a solid or blurred background color (never pure transparent)."
+  ],
+  "universal_guidelines": [
+    "Avoid gradients for dark colors.",
+    "Do not use centered layouts for main content; prefer left-aligned or asymmetrical.",
+    "Use layered design with z-index for depth.",
+    "No generic transitions (transition: all). Animate specific properties.",
+    "Micro-animations on hover are mandatory.",
+    "Use generous spacing (p-8+) for marketing pages.",
+    "Use sonner for toast notifications."
+  ]
+}
